@@ -55,7 +55,7 @@ const products = [
 
 export function Products() {
   return (
-    <section className="py-12 px-4 bg-gradient-to-b from-pink-100 to-pink-200">
+    <section className="py-12 px-4 bg-black">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {products.map((product) => (
@@ -80,10 +80,10 @@ export function Products() {
                     />
                   ))}
                 </div>
-                <h3 className="text-xl font-bold text-foreground mb-2">
+                <h3 className="text-xl font-bold text-black mb-2">
                   {product.name}
                 </h3>
-                <p className="text-sm text-muted-foreground leading-relaxed">
+                <p className="text-sm text-black leading-relaxed">
                   {product.description}
                 </p>
               </div>
