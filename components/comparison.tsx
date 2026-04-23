@@ -18,7 +18,7 @@ export function Comparison() {
 
         <div className="max-w-lg mx-auto mb-8">
           <Image
-            src="https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=486,format=webp/tenants/UENhtV2BkVNeOEFrXxQ/images/cBCj2MIRUew201WdUMrJA.png"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cBCj2MIRUew201WdUMrJA%20%283%29-vrOuPwZmdvXuGu4M7jkhg1WBaFZC76.png"
             alt="Comparativo de perfumes - Nós vs Outros"
             width={486}
             height={486}

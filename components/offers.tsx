@@ -6,7 +6,7 @@ const offers = [
     title: "COMPRE 1 E LEVE 4 PERFUMES ARABES - 100 ml (Cada)",
     discount: "49% de desconto",
     image:
-      "https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=200,format=webp/tenants/UENhtV2BkVNeOEFrXxQ/images/zwJDKwmVFU64UfJqX0P2vA.png",
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cBCj2MIRUew201WdUMrJA%20%283%29-vrOuPwZmdvXuGu4M7jkhg1WBaFZC76.png",
     oldPrice: "R$ 899,90",
     newPrice: "R$ 179,90",
     installments: "ou 12x de R$ 17,91",
@@ -16,7 +16,7 @@ const offers = [
     title: "COMPRE 1 E LEVE 3 PERFUMES ARABES - 100 ml (Cada)",
     discount: "33% de desconto",
     image:
-      "https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=200,format=webp/tenants/UENhtV2BkVNeOEFrXxQ/images/FQYQVV3oK0qd_JKJjzjfA.png",
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cBCj2MIRUew201WdUMrJA%20%283%29-vrOuPwZmdvXuGu4M7jkhg1WBaFZC76.png",
     oldPrice: "R$ 499,90",
     newPrice: "R$ 149,90",
     installments: "ou 12x de R$ 14,92",
@@ -26,7 +26,7 @@ const offers = [
     title: "COMPRE 1 E LEVE 2 PERFUMES ARABES - 100 ml (Cada)",
     discount: "25% de desconto",
     image:
-      "https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=200,format=webp/tenants/UENhtV2BkVNeOEFrXxQ/images/Dtz1stQNkKj4-zg5xI1Q.png",
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cBCj2MIRUew201WdUMrJA%20%283%29-vrOuPwZmdvXuGu4M7jkhg1WBaFZC76.png",
     oldPrice: "R$ 299,90",
     newPrice: "R$ 119,90",
     installments: "ou 12x de R$ 11,92",
@@ -63,7 +63,7 @@ export function Offers() {
                 {offer.title}
               </h3>
 
-              <div className="relative w-32 h-32 mb-4">
+              <div className="relative w-40 h-40 mb-4">
                 <Image
                   src={offer.image}
                   alt={offer.title}

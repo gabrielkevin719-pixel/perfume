@@ -6,9 +6,10 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { CTAButton } from "./cta-button";
 
 const heroImages = [
-  "https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=600,format=webp/tenants/UENhtV2BkVNeOEFrXxQ/images/wJCPikCq3U2BEFqFnzVctw.jpeg",
-  "https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=600,format=webp/tenants/UENhtV2BkVNeOEFrXxQ/images/MhvXSvdSk-4DLmWM9szjQ.jpeg",
-  "https://cdn.rockty.com.br/cdn-cgi/image/quality=80,width=600,format=webp/tenants/UENhtV2BkVNeOEFrXxQ/images/FvpYmj4oq0CQk2c2iM_6eA.jpeg",
+  "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cBCj2MIRUew201WdUMrJA%20%283%29-vrOuPwZmdvXuGu4M7jkhg1WBaFZC76.png",
+  "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/5rDgRPCHrUSjspDXXtRsyQ%20%281%29-hsIi5p0SuSRatdxdhsbzwMjJbYWVn4.png",
+  "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/9q6U9yempE6TOxm9uhqabQ%20%281%29-8BEKlEWtOM03Wm8DMfsonPET4lSEsH.png",
+  "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/5Y6vMA6G0GoQd0A6owq2w%20%281%29-0AkN2aWABQLksVkwTm24oSoeXpceFp.png",
 ];
 
 export function Hero() {
@@ -35,7 +36,7 @@ export function Hero() {
                 src={heroImages[currentImage]}
                 alt="Perfume Árabe Importado"
                 fill
-                className="object-cover"
+                className="object-contain"
                 priority
               />
 
@@ -63,7 +64,7 @@ export function Hero() {
                     onClick={() => setCurrentImage(index)}
                     className={`w-3 h-3 rounded-full transition-colors ${
                       index === currentImage
-                        ? "bg-foreground"
+                        ? "bg-primary"
                         : "bg-foreground/30 hover:bg-foreground/50"
                     }`}
                     aria-label={`Ir para imagem ${index + 1}`}
