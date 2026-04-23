@@ -8,6 +8,7 @@ import { Offers } from "@/components/offers";
 import { Guarantees } from "@/components/guarantees";
 import { FAQ } from "@/components/faq";
 import { Footer } from "@/components/footer";
+import { Products } from "@/components/products";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Header />
       <PromoBanner />
       <Hero />
+      <Products />
       <Comparison />
       <Benefits />
       <Testimonials />
